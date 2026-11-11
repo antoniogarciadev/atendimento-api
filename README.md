@@ -93,7 +93,7 @@ npm run dev //executa no comando node --watch index.js
 ```
 
 #### 5. Testar
-Testar a API com as rotas acima mencionadas 👉 [ Rotas da API](https://github.com/antoniogarciadev/atendimento-api/master/README.md#rotas-da-api)
+Testar a API com as rotas acima mencionadas 👆
 >A api pode ser testada em uma ferramenta de cliente REST como `INSOMNIA`, `POSTMAN`, etc.
 
 <br/>
