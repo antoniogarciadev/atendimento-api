@@ -7,7 +7,6 @@ const router = require('./routes/index');
 const conn = require('./src/infra/conection');
 const tabelas = require('./src/infra/tabelas');
 
-
 app.use(express.json());
 app.use(express.urlencoded({extends: true}));
 

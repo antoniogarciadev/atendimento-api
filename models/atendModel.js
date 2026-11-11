@@ -52,9 +52,9 @@ class AtendimentoModel
         return this.execQuery(sql, data, 'Criado com sucesso');
     }
 
-    atualizar(data, id){
+    atualizar(dados, id){
         const sql = 'UPDATE atendimentos SET ? WHERE id = ?';
-        return this.execQuery(sql, [data, id], 'Dados atualizados com sucesso:');
+        return this.execQuery(sql, [dados, id], 'Dados atualizados com sucesso:');
     }
 
     deletar(id){
